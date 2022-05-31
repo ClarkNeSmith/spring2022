@@ -24,13 +24,13 @@ text-align:center;
 }
 #background {
     height: 725px;
-    background-color: aqua;
+    background-color: rgb(71, 132, 132);
 }
 body {
-background-color:blue
+background-color:rgb(191, 152, 73)
 }
 header {
-background-color:aqua 
+background-color:rgb(127, 165, 215) 
 }
 h2 {
 text-align:center;    
@@ -63,10 +63,10 @@ background-color: brown;
 color:black
 }
 .msg {
-background-color: aqua;
+background-color: rgb(229, 237, 237);
 }
 footer {
-background-color: aqua;
+background-color: rgb(229, 237, 237);
 }
 .msg h2 {
 color:black
