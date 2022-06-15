@@ -267,7 +267,7 @@ z-index: 12;
   right: 10px;
   top: -3px;
 }
-.hint i:before, .hint i:after {
+.hint i:before, .hint :after {
   content: "";
   position: absolute;
   background-color: black;
