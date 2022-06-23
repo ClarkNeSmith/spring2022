@@ -196,6 +196,39 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     opacity: .6;
     transform: scale(1.1);
 }
+
+/*the start of the sub page*/
+.mom {
+    
+    height: 600px;
+    width: auto;
+    margin-bottom: -200px;
+    position: relative;
+}
+
+.faq {
+    background-color:rgb(113, 176, 239);
+    width: 555px;
+    height: 600px;
+    margin-top: -28px;
+ 
+}
+.rates {
+    
+    background-color: rgb(113, 176, 239); 
+    width: 555px;
+    height: 580px;
+    position:absolute; left: 700px; 
+    margin-top: -600px;
+  
+    
+}
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
