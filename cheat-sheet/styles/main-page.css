@@ -1,0 +1,17 @@
+
+.head {
+background-color: rgb(33, 54, 41);
+}
+.foot {
+background-color: rgb(33, 54, 41);
+height: 104px;
+}
+.logo {
+width: 90px;
+height: 90px;
+}
+.mainbox {
+border: 10px red solid;
+height: 700px;
+width: 900px;
+}
