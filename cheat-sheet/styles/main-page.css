@@ -24,12 +24,30 @@ border: solid black 1px;
 .nike{
 border: 2px solid red;
 }
-.test{
-height: 2000px;
-}
 .testing {
 text-align: center;
 }
 .slideshow{
 height:1000px;
+}
+.maingrid {
+display: grid;
+grid-template-rows: 50px 50px 50px 50px 50px ;
+grid-template-columns: 50px 50px 50px 50px 50px 50px 50px ;
+} 
+.home-photo{
+grid-row-start: 1;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 4;
+height: auto;
+width: auto;
+}
+.home-names{
+grid-row-start: 1;
+grid-row-end: 4;
+grid-column-start: 6;
+grid-column-end: 7;
+height: auto;
+width: auto;
 }
