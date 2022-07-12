@@ -15,8 +15,8 @@ border: 10px red solid;
 height: 700px;
 width: 900px;
 }
-.page-link {
-color: black 
+.links {
+color: salmon 
 }
 p {
 border: solid black 1px;
@@ -26,4 +26,10 @@ border: 2px solid red;
 }
 .test{
 height: 2000px;
+}
+.testing {
+text-align: center;
+}
+.slideshow{
+height:1000px;
 }
