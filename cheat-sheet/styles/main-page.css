@@ -28,18 +28,21 @@ color: salmon;
 font-size: 15px;
 grid-column: 2;
 grid-row: 2;
+font-family: 'Cormorant SC', serif;
 }
 .links2 {
     color: salmon;
     font-size: 15px;
     grid-column: 4;
     grid-row: 2;
+    font-family: 'Cormorant SC', serif;
 }
 .links3 {
     color: salmon;
     font-size: 15px;
     grid-column: 3;
     grid-row: 2;
+    font-family: 'Cormorant SC', serif;
 }
 .links4 {
     color: salmon;
@@ -82,9 +85,6 @@ margin-right: 700px;
 .venmo-div{
 height: 40px
 }
-.venmo-div img {
-    padding-top: 15px; 
-}
 body{
 margin: 0;
 padding: 0;
@@ -101,36 +101,43 @@ width:1200px;
 margin-left: 360px;
 margin-top: 20px;
 }
-@-webkit-keyframes slide_animation{
-0% {left:0px}
-10% {left:0px}
-20% {left:1200px}
-30% {left:1200px}
-40% {left:2400px}
-50% {left:2400px}
-60% {left:1200px}
-70% {left:1200px}
-80% {left:0px}
-90% {left:0px}
-100% {left:0px}
+.bottom-text{
+text-align: center;
+font-size: 15px;
 }
-.slide-images{
-width: 3600px;
-height: 800px;
-margin: 0 0 0 -2400px;
-position: relative;
--webkit-animation-name: slide-animation;
--webkit-animation-duration: 33s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
+.vooter-venmo{
+text-align: center;
+font-size: 20px;
 }
-.image-container{
-height: 800px;
-width: 1200;
-position: relative;
+.float-img1 {
 float: left;
+height: 200px;
+width: 215px;
+padding-right: 10px;
+padding-left: 75px;
 }
-
-
-
+.float-img2{
+float: right;
+height: 200px;
+width: 200px;
+padding-left: 15px;
+padding-right: 75px;
+}
+.paragraph1{
+padding-left: 75px;
+padding-right: 75px
+}
+.paragraph2{
+padding-left: 75px;
+padding-right: 75px;
+}
+.main-box-ac{
+height: 475px;
+width: auto;
+}
+.links3 {
+padding-right: 20px;
+}
+.mid-paragraph{
+font-size: 20px;
+}
